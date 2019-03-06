@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1939308302495880}
+  m_IsPrefabAsset: 1
+--- !u!1 &1939308302495880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4149314576656482}
+  - component: {fileID: 114469892152141426}
+  - component: {fileID: 114989699307024284}
+  - component: {fileID: 114429869001416562}
+  - component: {fileID: 114603574044511702}
+  - component: {fileID: 114830002110289580}
+  m_Layer: 0
+  m_Name: GUIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4149314576656482
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114429869001416562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e0906d5155e9742878f73f0fd5af88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalGameObject: {fileID: 0}
+  numberOfCrystals: {fileID: 0}
+  numberOfPoints: {fileID: 0}
+--- !u!114 &114469892152141426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b65f2abf579b234196d3f6b904a804a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114603574044511702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f0ae716c90718499355b548c6fc4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalGameObject: {fileID: 0}
+  input1: {fileID: 0}
+  input2: {fileID: 0}
+  input3: {fileID: 0}
+--- !u!114 &114830002110289580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adedf2ea12479a14889aceb25f12d910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalGameObject: {fileID: 0}
+  animationDuration: 0.8
+  canvasHeight: 1426
+  canvasWidth: 800
+  blueSchema:
+  - {fileID: 21300000, guid: 56a68c527a425e54b89d073abc911f5d, type: 3}
+  - {fileID: 21300000, guid: 3d7fd2d1e62aaf2419130db38d96cf3f, type: 3}
+  - {fileID: 21300000, guid: e4b6326e5e162f447a9cc6c4dfe99e93, type: 3}
+  - {fileID: 21300000, guid: 5b1968d7bd49aa44ea6df1166142193a, type: 3}
+  - {fileID: 21300000, guid: a585fcd56bbcde842928513b283984a9, type: 3}
+  greenSchema:
+  - {fileID: 21300000, guid: 2056cbd422f2ac64b9d53e9e5b140bfd, type: 3}
+  - {fileID: 21300000, guid: 8981fe79232191646812a98e22444fdd, type: 3}
+  - {fileID: 21300000, guid: 3793b9579f962fc42a5da944db87df17, type: 3}
+  - {fileID: 21300000, guid: 40fe99a93cf236446aa34b3fec69b428, type: 3}
+  - {fileID: 21300000, guid: 152367e81bb997c4f956ac36cdbf6a44, type: 3}
+  purpleSchema:
+  - {fileID: 21300000, guid: 2db0705b42b0ef64d97927896548e655, type: 3}
+  - {fileID: 21300000, guid: 119a778abe9921347b02777154e766b4, type: 3}
+  - {fileID: 21300000, guid: 6d2f8ea73e69be349b9b0d6da5670ba5, type: 3}
+  - {fileID: 21300000, guid: 62e369dadd3b1df4485929a8a472c192, type: 3}
+  - {fileID: 21300000, guid: ca0700b1e97427d45aeba0e160bab5e7, type: 3}
+  numberOfCrystals: {fileID: 0}
+  numberOfPoints: {fileID: 0}
+--- !u!114 &114989699307024284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939308302495880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cd707d6f4c6ea40a5d55f87e1601b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalGameObject: {fileID: 0}
+  currentEndPoints: {fileID: 0}
+  recordPoints: {fileID: 0}
+  blueSchema:
+  - {fileID: 21300000, guid: e4b6326e5e162f447a9cc6c4dfe99e93, type: 3}
+  - {fileID: 21300000, guid: 629b9a957da4e80459445e7bdd5005b2, type: 3}
+  - {fileID: 21300000, guid: 630c68ff373ecfe498b3a0fbdea98cdf, type: 3}
+  greenSchema:
+  - {fileID: 21300000, guid: 3793b9579f962fc42a5da944db87df17, type: 3}
+  - {fileID: 21300000, guid: 7f12733dcce6845418fcbd6d9e99e7a8, type: 3}
+  - {fileID: 21300000, guid: 987e9fb4dc687bf4899ff86fd874e430, type: 3}
+  purpleSchema:
+  - {fileID: 21300000, guid: 6d2f8ea73e69be349b9b0d6da5670ba5, type: 3}
+  - {fileID: 21300000, guid: 42f069e81f7429d4cadcad8a61dfdaec, type: 3}
+  - {fileID: 21300000, guid: 16c055d0822220d4eaba519d179fa95a, type: 3}
+  colorButtonsImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  uiRects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  animDuration: 0.2

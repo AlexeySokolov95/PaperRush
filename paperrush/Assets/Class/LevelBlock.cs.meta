@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d273168c55d0398458fd353224754f47
+timeCreated: 1522236157
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - crystalBonus: {fileID: 1217008967574518, guid: a1edb9f7a630307469cca2f8c969c96d,
+      type: 2}
+  - claimbBonus: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

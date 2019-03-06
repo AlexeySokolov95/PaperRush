@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1719104736766868}
+  m_IsPrefabParent: 1
+--- !u!1 &1719104736766868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4808259642298856}
+  - component: {fileID: 114337470757653934}
+  m_Layer: 0
+  m_Name: MovingCrackInWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808259642298856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719104736766868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114337470757653934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719104736766868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedc1094da6d4ab479d7781c6051481f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls: []
+  elements: []
+  lengthOfOpenningWall: 20
+  lengthOfEndingWall: 20
+  crackWidth: 5
+  movingDuration: 2
+  distanceFromWall: 4
+  blockLength: 10
+  crackWall: {fileID: 1448374866379818, guid: 6216a0f64aaa6e14cbb4e28642d55bd8, type: 2}
+  climbBonusPref: {fileID: 1322638440085878, guid: 790f732317126ee4bba962bf1ea60213,
+    type: 2}
+  crystalBonus: {fileID: 1164730395332508, guid: a1edb9f7a630307469cca2f8c969c96d,
+    type: 2}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1402768670820876}
+  m_IsPrefabAsset: 1
+--- !u!1 &1402768670820876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4622904114522462}
+  - component: {fileID: 114956340062936820}
+  m_Layer: 0
+  m_Name: WaveWalls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4622904114522462
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402768670820876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114956340062936820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402768670820876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1771202b2b33643b39a08a4e58213d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineOfWall: {fileID: 1022795100146974, guid: 3969a5a77cd70594bbb2b274b9761f75, type: 2}
+  numberOfLines: 12
+  additionalHeight: 0
+  lengthOfLines: 100
+  heightOfTurn: 15.5
+  heightOfBeginninig: -2
+  movingDuration: 5
+  circelRadius: 5
+  numberOfSegments: 5
+  endingDistance: 3
+  mat1: {fileID: 2100000, guid: e710f8421b511034d98c933937d4fa50, type: 2}
+  mat2: {fileID: 2100000, guid: 8c7954def2782d14dbce2fcd8ef362c3, type: 2}

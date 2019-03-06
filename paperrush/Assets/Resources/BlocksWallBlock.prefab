@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1351100472158642}
+  m_IsPrefabParent: 1
+--- !u!1 &1351100472158642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4833198108381890}
+  - component: {fileID: 114485044678986680}
+  m_Layer: 0
+  m_Name: BlocksWallBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4833198108381890
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351100472158642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114485044678986680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351100472158642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b89126cc8ec74b95948dc8930967e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls: []
+  elements: []
+  lengthOfOpenningWall: 20
+  lengthOfEndingWall: 0
+  climbBonusRadius: 3
+  easyClimbBonusRadius: 1.5
+  easyBlock: 0
+  numberBlocks: 3
+  passageWidth: 4
+  movingDuration: 1
+  areaMoving: 20
+  blockLength: 50
+  blockWallBlock: {fileID: 1692537546485814, guid: 25407278f38a7ec4686d6fd1a414bfb0,
+    type: 2}
+  climbBonusPref: {fileID: 1322638440085878, guid: 790f732317126ee4bba962bf1ea60213,
+    type: 2}
+  crystalBonus: {fileID: 1164730395332508, guid: a1edb9f7a630307469cca2f8c969c96d,
+    type: 2}

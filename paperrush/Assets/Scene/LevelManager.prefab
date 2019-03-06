@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1917629654707376}
+  m_IsPrefabAsset: 1
+--- !u!1 &1917629654707376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4343785947185142}
+  - component: {fileID: 114090016818294194}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Level Creater
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4343785947185142
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1917629654707376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114090016818294194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1917629654707376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfd1e231b16626438b6d4838d93a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: []
+  numberOfCylinder: 10
+  cylinderMaxRandomWidthPart: 2
+  player: {fileID: 0}
+  widthWall: 20
+  heightWall: 14.4
+  putClimbBonusForSmallBlock: 1
+  onlyOneBlock: 0
+  lonelyBlock: {fileID: 1730583593861756, guid: c508e03f62796354f9692a6d9c7e200f,
+    type: 2}
+  anyLevelBlocks:
+  - {fileID: 1351100472158642, guid: a2cbd933cae8d74418881d78c676c419, type: 2}
+  - {fileID: 1129241561880282, guid: 6cfd3cd0a74e44b498dc1a01308b2787, type: 2}
+  - {fileID: 1372854470163590, guid: c871cf6596778e44f87687c8c4b7aec3, type: 2}
+  - {fileID: 1435958730181488, guid: cd26a24953a504344b9f6405f7b58991, type: 2}
+  - {fileID: 1719104736766868, guid: a9fede3df6ececf458fc001d20bea065, type: 2}
+  - {fileID: 1523308810110396, guid: 1c4f1682317f9d64594f48e9fbeea8d1, type: 2}
+  - {fileID: 1512558239136140, guid: c9bcec6a712718b44a7d935d0f04daa1, type: 2}
+  - {fileID: 1055990506013772, guid: 24dfeffbafce85043941381b89550629, type: 2}
+  - {fileID: 1112037170509074, guid: 08740f08dcfd68743b3e8597f2e06548, type: 2}
+  - {fileID: 1364419199238652, guid: b041fe9764268b5428e5e75d91c70684, type: 2}
+  - {fileID: 1284915908976770, guid: 8ea9c27744c46ba40b699a54e2eb1b92, type: 2}
+  - {fileID: 1487221904728978, guid: f5ad06ab4776051439960800a4a864db, type: 2}
+  - {fileID: 1866050167970374, guid: 50580372c2145a84a964b0fa6f1843a9, type: 2}
+  smallLevelBlocks:
+  - {fileID: 1719104736766868, guid: a9fede3df6ececf458fc001d20bea065, type: 2}
+  - {fileID: 1351100472158642, guid: a2cbd933cae8d74418881d78c676c419, type: 2}
+  - {fileID: 1934837870356406, guid: 953214738e6b00444818f650e3f9ff4e, type: 2}
+  - {fileID: 1435958730181488, guid: cd26a24953a504344b9f6405f7b58991, type: 2}
+  - {fileID: 1063933642092676, guid: 9e458152b5f78ca42a755cfe6b0006e6, type: 2}
+  - {fileID: 1284915908976770, guid: 8ea9c27744c46ba40b699a54e2eb1b92, type: 2}
+  - {fileID: 1592654692343922, guid: e21b1e60921ba3d46902428eb52cc5cd, type: 2}
+  easyAnyLevelBlocks:
+  - {fileID: 1417836792965190, guid: be0b3b1cac77d4845a0a673344bf5615, type: 2}
+  - {fileID: 1874568074682310, guid: ce632ab413a8c0d4aa4e9f4d7fdf2982, type: 2}
+  - {fileID: 1115322054902456, guid: aefd52571365e4742bcbe08cd5bf26c4, type: 2}
+  - {fileID: 1969365340925930, guid: 5df04737538b7ac40be4d0710a6ddcd3, type: 2}
+  - {fileID: 1398409490468972, guid: 4cdd9c3c0a82d434b81146ea2efe3b57, type: 2}
+  - {fileID: 1805028599468160, guid: 6d911603e203a1448a6e25cd6ec14425, type: 2}
+  - {fileID: 1815830703330022, guid: ac822c4f5071418479b63dc8f1ffc389, type: 2}
+  - {fileID: 1767585958496340, guid: 794dd18f19353534a83461976939ee95, type: 2}
+  - {fileID: 1730583593861756, guid: c508e03f62796354f9692a6d9c7e200f, type: 2}
+  easySmallLevelBlocks:
+  - {fileID: 1417836792965190, guid: be0b3b1cac77d4845a0a673344bf5615, type: 2}
+  - {fileID: 1805028599468160, guid: 6d911603e203a1448a6e25cd6ec14425, type: 2}
+  - {fileID: 1969365340925930, guid: 5df04737538b7ac40be4d0710a6ddcd3, type: 2}
+  - {fileID: 1115322054902456, guid: aefd52571365e4742bcbe08cd5bf26c4, type: 2}
+  - {fileID: 1767585958496340, guid: 794dd18f19353534a83461976939ee95, type: 2}
+  rbpPlayer: {fileID: 0}
